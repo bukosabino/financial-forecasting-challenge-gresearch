@@ -1,0 +1,7 @@
+jupyterlab==0.31.8
+pandas==0.22.0
+numpy==1.14.1
+scikit_learn==0.19.1
+seaborn==0.8.1
+xgboost
+lightgbm==2.1.0
