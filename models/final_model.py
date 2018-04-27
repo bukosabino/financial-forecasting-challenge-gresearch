@@ -18,3 +18,4 @@ df = pd.DataFrame()
 
 df['y'] = 0.2*df1['y'] + 0.23*df2['y'] + 0.2*df3['y'] + 0.15*df4['y'] + 0.22*df5['y']
 df.to_csv('submission53.csv') # 0.301697 (public leaderboard)
+print(".csv submission is ready")
