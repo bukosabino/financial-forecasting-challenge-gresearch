@@ -19,11 +19,6 @@ sys.path.append("..") # Adds higher directory to python modules path.
 
 from utils import *
 
-"""
-IMPORTANT:
-To run this model you need run before preprocessing/preprocessing_xx.py
-"""
-
 np.random.seed(0)
 
 # Settings
@@ -57,8 +52,6 @@ for i in [1,2,3,4]:
     else:
         # X_train, X_test, y_train, y_test = train_test_split(df_train[cols], df_train['y'], test_size=0.5, random_state=17)
         X_train, X_test, y_train, y_test = train_test_split_own(df_train[cols], df_train['y'])
-
-    print("Number of columns: " + str(len(X_train.columns)))
 
     # Delete Outliers
     if OUTLIERS:

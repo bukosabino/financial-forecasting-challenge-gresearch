@@ -18,11 +18,6 @@ sys.path.append("..") # Adds higher directory to python modules path.
 
 from utils import *
 
-"""
-IMPORTANT:
-To run this model you need run before preprocessing/preprocessing_xx.py
-"""
-
 np.random.seed(0)
 
 # Settings
@@ -100,7 +95,6 @@ for bst in bst_lst:
 y_pred = np.array(pred_list).mean(0)
 
 # Results
-print(n_round)
 if SUBMISSION:
     # to submission
     df_test['y'] = y_pred

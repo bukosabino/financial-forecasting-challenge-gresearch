@@ -19,6 +19,8 @@ sys.path.append("..") # Adds higher directory to python modules path.
 
 from utils import *
 
+np.random.seed(0)
+
 # Settings
 OUTLIERS = False
 OUTLIER_FACTOR = 6
