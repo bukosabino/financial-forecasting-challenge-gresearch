@@ -4,7 +4,7 @@ This repository include my code to the challenge proposed by G-Research:
 
 https://financialforecasting.gresearch.co.uk/
 
-In ended up at 29rd place on the private leaderboard, among about 400 participants.
+In ended up at 29th place on the private leaderboard, among about 400 participants.
 
 # Deployment
 
