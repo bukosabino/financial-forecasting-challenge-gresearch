@@ -6,6 +6,9 @@ https://financialforecasting.gresearch.co.uk/
 
 In ended up at 29th place on the private leaderboard, among about 400 participants.
 
+You can read my notes about the challenge:
+
+https://medium.com/@bukosabino/financial-forecasting-challenge-by-g-research-8792c5344ae9
 # Deployment
 
 ```sh
