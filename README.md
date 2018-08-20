@@ -12,28 +12,28 @@ https://medium.com/@bukosabino/financial-forecasting-challenge-by-g-research-879
 # Deployment
 
 ```sh
-> virtualenv -p python3 env
-> source env/bin/activate
-> pip install -r requirements.txt
+$ virtualenv -p python3 env
+$ source env/bin/activate
+$ pip install -r requirements.txt
 ```
 
 # Run
 
-0) You need download the train and test datasets of the challenge: https://financialforecasting.gresearch.co.uk/
+0) You need to download the train and test datasets of the challenge: https://financialforecasting.gresearch.co.uk/
 And put them in a 'input' folder in the project.
 
-1) You need execute preprocessing script. So:
+1) You need to execute preprocessing script. So:
 
 ```sh
-> cd preprocessing
-> python preprocessing.py
+$ cd preprocessing
+$ python preprocessing.py
 ```
 
 2) You can use any model in model folder. So:
 
 ```sh
-> cd models
-> python modelX.py
+$ cd models
+$ python modelX.py
 ```
 
 # Credits
