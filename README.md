@@ -38,6 +38,6 @@ $ python modelX.py
 
 # Credits
 
-Developed by Bukosabino at Lecrin Technologies - http://lecrintech.com
+Developed by Bukosabino.
 
-We are a cooperative of freelancers focused on Data Science. Please, let me know about any comment or project related.
+I am a Machine Learning Freelance focused on Data Science using Python tools such as Pandas, Scikit-Learn, Zipline or Catalyst. Don't hesitate to contact with me if you need something related with Technical Analysis, Algo Trading, Machine Learning, etc.
